@@ -19,21 +19,23 @@ void times_table(void)
 
 			if (column == 0)																					
 			{
-				putchar('0' + product);			
+				_putchar('0' + product);			
 			}
 			else if (product <= 9)
-			{																							_putchar(',');																				_putchar(' ');						
+			{	
+				_putchar(',');
 				_putchar(' ');
-																																												_putchar('0' + product);
-																																															}
-																										else if (product > 9)
-																														{
-																																			_putchar(',');
-																																							_putchar(' ');
-																																											_putchar('0' + (product / 10));
-																																															_putchar('0' + (product % 10));
-																																																		}
-																												}
-												_putchar('\n');
-													}
+				_putchar(' ');
+				_putchar('0' + product);
+			}
+			else if (product > 9)
+			{
+				_putchar(',');
+				_putchar(' ');														
+				_putchar('0' + (product / 10));										
+				_putchar('0' + (product % 10));	
+			}
+		}
+		_putchar('\n');
+	}
 }
