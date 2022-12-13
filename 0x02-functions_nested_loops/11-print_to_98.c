@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- *  * print_to_98 - print numbers n to 98
- *   * @n: the initial number
- *    */
+*  * print_to_98 - print numbers n to 98
+*   * @n: the initial number
+*/
 
 void print_to_98(int n)
 {
